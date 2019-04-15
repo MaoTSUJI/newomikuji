@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
+
 .container {
   padding: 100px;
   display: flex;
@@ -7,7 +9,8 @@
 
 .result {
   margin-bottom: 30px;
-  display: flex;
+  display: block;
+/*  display: flex; */
   justify-content: center;
   align-items: center;
   width: 300px;
@@ -16,9 +19,27 @@
   background: blue;
 }
 
+/*
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+}
+*/
+
 .result p {
   color: white;
+//  font-family: 'Nico Moji';
   font-size: 30px;
+  /*テキストを中央よせ*/
+  text-align: center;
+  margin: 50px 0px;
+}
+
+#luckytext ,#color{
+  margin: 10px;
 }
 
 .btn {
@@ -28,6 +49,8 @@
   border-radius: 13px;
   line-height: 40px;
   font-size: 20px;
+  font-family: 'Nico Moji';
+
 }
 
 .btn:hover {
